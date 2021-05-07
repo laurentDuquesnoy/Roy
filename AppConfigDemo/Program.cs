@@ -64,18 +64,23 @@ namespace AppConfigDemo
             Console.ForegroundColor = ConsoleColor.White;
         }
         
-        public static ConfigurationQueryResult<TSection> GetPersonSettings<TSection>()
+        public static void GetPersonSettings()
         {
-            var result = _appSettingsService.GetConfigurationSection<TSection>("PersonSettings");
+            var result = _appSettingsService.GetConfigurationSection<PersonSettings>("PersonSettings");
 
-            return result;
+            Console.WriteLine(result.QueryResult.DeveloperName);
+            Console.WriteLine(result.QueryResult.Year);
+            Console.WriteLine(result.QueryResult.School);
         }
 
-        public static ConfigurationQueryResult<TSection> GetProgramSettings<TSection>()
+        public static void GetProgramSettings ()
         {
-            var result = _appSettingsService.GetConfigurationSection<TSection>("ProgramSettings");
+            var result = _appSettingsService.GetConfigurationSection<ProgramSettings>("ProgramSettings");
 
-            return result;
+            Console.WriteLine(result.QueryResult.Name);
+            Console.WriteLine(result.QueryResult.Version);
         }
+        
+        
     }
 }
