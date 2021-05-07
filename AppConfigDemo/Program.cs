@@ -1,6 +1,7 @@
 ﻿using AppConfigDemo.Settings; //namespace van de configuratiesettins
 using AppConfiguration; //namespace van de class library Appconfiguration
 using System;
+using AppConfiguration.Data;
 
 namespace AppConfigDemo
 {
@@ -61,6 +62,20 @@ namespace AppConfigDemo
             Console.ForegroundColor = color;
             Console.WriteLine(message);
             Console.ForegroundColor = ConsoleColor.White;
+        }
+        
+        public static ConfigurationQueryResult<TSection> GetPersonSettings<TSection>()
+        {
+            var result = _appSettingsService.GetConfigurationSection<TSection>("PersonSettings");
+
+            return result;
+        }
+
+        public static ConfigurationQueryResult<TSection> GetProgramSettings<TSection>()
+        {
+            var result = _appSettingsService.GetConfigurationSection<TSection>("ProgramSettings");
+
+            return result;
         }
     }
 }
