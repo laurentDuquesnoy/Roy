@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "JSONDemo/1.0.0": {
+        "dependencies": {
+          "JSONUtils": "1.0.0"
+        },
+        "runtime": {
+          "JSONDemo.dll": {}
+        }
+      },
+      "JSONUtils/1.0.0": {
+        "runtime": {
+          "JSONUtils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JSONDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JSONUtils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

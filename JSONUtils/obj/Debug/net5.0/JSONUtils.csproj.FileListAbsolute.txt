@@ -1,0 +1,12 @@
+C:\Users\user\Documents\Vives\GraduaatProgrammeren\Vak-ApplicationIntegration\SolutionApplicicationIntegration01\JSONUtils\bin\Debug\net5.0\JSONUtils.deps.json
+C:\Users\user\Documents\Vives\GraduaatProgrammeren\Vak-ApplicationIntegration\SolutionApplicicationIntegration01\JSONUtils\bin\Debug\net5.0\JSONUtils.dll
+C:\Users\user\Documents\Vives\GraduaatProgrammeren\Vak-ApplicationIntegration\SolutionApplicicationIntegration01\JSONUtils\bin\Debug\net5.0\ref\JSONUtils.dll
+C:\Users\user\Documents\Vives\GraduaatProgrammeren\Vak-ApplicationIntegration\SolutionApplicicationIntegration01\JSONUtils\bin\Debug\net5.0\JSONUtils.pdb
+C:\Users\user\Documents\Vives\GraduaatProgrammeren\Vak-ApplicationIntegration\SolutionApplicicationIntegration01\JSONUtils\obj\Debug\net5.0\JSONUtils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Vives\GraduaatProgrammeren\Vak-ApplicationIntegration\SolutionApplicicationIntegration01\JSONUtils\obj\Debug\net5.0\JSONUtils.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Vives\GraduaatProgrammeren\Vak-ApplicationIntegration\SolutionApplicicationIntegration01\JSONUtils\obj\Debug\net5.0\JSONUtils.AssemblyInfo.cs
+C:\Users\user\Documents\Vives\GraduaatProgrammeren\Vak-ApplicationIntegration\SolutionApplicicationIntegration01\JSONUtils\obj\Debug\net5.0\JSONUtils.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Vives\GraduaatProgrammeren\Vak-ApplicationIntegration\SolutionApplicicationIntegration01\JSONUtils\obj\Debug\net5.0\JSONUtils.dll
+C:\Users\user\Documents\Vives\GraduaatProgrammeren\Vak-ApplicationIntegration\SolutionApplicicationIntegration01\JSONUtils\obj\Debug\net5.0\ref\JSONUtils.dll
+C:\Users\user\Documents\Vives\GraduaatProgrammeren\Vak-ApplicationIntegration\SolutionApplicicationIntegration01\JSONUtils\obj\Debug\net5.0\JSONUtils.pdb
+C:\Users\user\Documents\Vives\GraduaatProgrammeren\Vak-ApplicationIntegration\SolutionApplicicationIntegration01\JSONUtils\obj\Debug\net5.0\JSONUtils.csprojAssemblyReference.cache
