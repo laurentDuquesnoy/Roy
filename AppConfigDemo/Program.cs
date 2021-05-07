@@ -15,6 +15,9 @@ namespace AppConfigDemo
         static void Main(string[] args)
         {
             PrintAppSettings();
+            GetPersonSettings();
+            GetProgramSettings();
+            getConnectionStrings();
         }
 
         /// <summary>
@@ -80,7 +83,12 @@ namespace AppConfigDemo
             Console.WriteLine(result.QueryResult.Name);
             Console.WriteLine(result.QueryResult.Version);
         }
-        
-        
+
+        public static void getConnectionStrings(string name = "KlantenDB")
+        {
+            string result = _appSettingsService.GetConnectionString(name).QueryResult;
+            
+            Console.WriteLine(result);
+        }
     }
 }

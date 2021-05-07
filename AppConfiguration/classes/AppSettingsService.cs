@@ -107,11 +107,13 @@ namespace AppConfiguration
 
         public ConfigurationQueryResult<string> GetConnectionString(string name)
         {
-            throw new NotImplementedException();
-        }
+            var result = new ConfigurationQueryResult<string>() {Status = QueryStatus.Ok};
 
-        
-        
-        
+            if (_configRoot.GetSection("ConnectionStrings").Exists())
+            {
+                result.QueryResult = _configRoot.GetConnectionString(name);
+            }
+            return result;
+        }
     }
 }
